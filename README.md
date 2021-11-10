@@ -1,3 +1,3 @@
-# homepage mela
+# seoul mela
 
-mela main homepage create by seojaeoh
+mela first city seoul homepage create by seojaeoh
