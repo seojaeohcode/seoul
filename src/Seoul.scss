@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+//f12확인가능 공백이유:body margin 8px
+body{
+    margin: 0px;
+}
+
+//타이틀 폰트와 가로정렬 + 배경색으로 영역확인 가능 
+.title{
+    display: flex;
+    font-family: 'Song Myung', serif;
+    background-color: yellowgreen;
+}
+
+//멜라 서울시소개 세로정렬 + 폰트
+.text{
+    position: absolute;
+}
+
+.text1{
+    margin-left: 140px;
+    font-size: 50px;
+}
+
+.text2{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.text3{
+    margin-left: 300px;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+//이미지 슬라이드
+.imageslide{
+    height: 800px;
+    background-color: cadetblue;
+}
+
+.slide-container {
+  width: 1903px;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+//버튼
+.buttons{
+  position: absolute;
+  top: 500px;
+}
+
+.next{
+  margin-left: 1820px;
+}
+
+.back{
+  margin-left: 20px;
+}
+
+//section
+.section1{
+  background-color: rgb(155, 155, 155);
+  height: 560px;
+}
+
+.section2{
+  height: 1500px;
+}
+.s2title{
+  text-align: center;
+  font-family: 'Song Myung', serif;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.s2textlarge{
+  font-size: 40px;
+  font-family: 'Song Myung', serif;
+}
+.s2textsmall{
+  font-size: 22px;
+  font-family: 'Song Myung', serif;
+}
+.hanilgwan{
+  display: flex;
+  background-color: rgb(243, 231, 215);
+}
+
+.section3{
+  background-color: rgb(155, 155, 155);
+}
+
+.imageleft{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.textbox{
+  width: 700px;
+  margin-left: 50px;
+}
+
+.positionbox{
+  width: 600px;
+  margin-left: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Song Myung', serif;
+}
+//footer
+.foot{
+  background-color: rgb(0, 0, 0);
+  height: 85px;
+  color: white;
+  margin-top: 645px;
+}
